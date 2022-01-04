@@ -1,0 +1,46 @@
+body {
+  background-color: #214d86;
+  font-family: Segoe UI, Segoe WP, Arial, Sans-Serif;
+}
+
+.Weather {
+  background-color: blue;
+  max-width: 600px;
+  display: block;
+  margin: 0 auto;
+  background-image: url("./images/backgrd.jpg");
+  background-repeat: no-repeat;
+  background-size: 600px;
+
+  padding: 20px;
+  border-radius: 10px;
+}
+.Weather li {
+  list-style: none;
+}
+.search-button {
+  margin-bottom: 15px;
+}
+.search-input {
+  border-radius: 20px;
+  padding: 6px 150px 6px 6px;
+  border: none;
+  margin-right: 5px;
+}
+.temperature {
+  font-size: 80px;
+  font-weight: 500;
+  padding-left: 10px;
+}
+.unit {
+  font-size: 18px;
+  font-weight: 600;
+  position: relative;
+  line-height: 1;
+  top: -40px;
+}
+
+.unit a {
+  text-decoration: none;
+  color: orange;
+}
